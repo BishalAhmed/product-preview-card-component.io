@@ -37,9 +37,13 @@ font-family: 'Montserrat', sans-serif; -->
     border-bottom-left-radius: 10px;
     bottom: 0;
     left: 0;right: 0;
+    transition: 0.5s ease-in-out;
     margin: auto;
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+   }
+   main:hover{
+    transform: scale(1.04);
    }
    .section1{
     width: 50%;
@@ -50,21 +54,11 @@ font-family: 'Montserrat', sans-serif; -->
     /* background-position: center; */
     background-size: cover;
     filter: contrast(150%);
-    overflow: hidden;
-    transition: 0.7s ease;
+    
+    
   
    }
-   .section1:hover{
-    transform: scale(1.2) translateY(30px);
-    filter: contrast(130%);
-    z-index: 10;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    
-    
-    
-
-   }
+   
    .section2 {
     width: 50%;
     height: 100%;
@@ -122,6 +116,7 @@ font-family: 'Montserrat', sans-serif; -->
     padding:none;
     text-align: right;
     cursor: pointer;
+    transition: 0.2s ease-in-out;
     
     
    
@@ -230,8 +225,5 @@ font-family: 'Montserrat', sans-serif; -->
     </section>
 
   </main>
-
-  
-  
 </body>
 </html>
